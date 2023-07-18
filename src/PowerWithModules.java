@@ -17,7 +17,7 @@ public class PowerWithModules {
         a = a % c;
         int sum = 1;
         for (int i = 0; i < b; i++){
-            sum *= a;
+            sum *= a % c;
         }
         return sum % c;
     }
